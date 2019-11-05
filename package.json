@@ -2,13 +2,17 @@
   "name": "date-genie",
   "version": "1.0.0",
   "description": "A date manipulation library",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --passWithNoTests"
   },
   "author": "Dante Monaldo",
   "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^24.0.21",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
     "typescript": "^3.6.4"
-  }
+  },
+  "dependencies": {}
 }
