@@ -1,0 +1,11 @@
+{
+  "name": "date-genie",
+  "version": "1.0.0",
+  "description": "A date manipulation library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dante Monaldo",
+  "license": "ISC"
+}
