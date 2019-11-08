@@ -4,15 +4,19 @@
   "description": "A date manipulation library",
   "main": "dist/index.js",
   "scripts": {
-    "test": "jest --passWithNoTests"
+    "test": "jest --passWithNoTests --watch"
   },
   "author": "Dante Monaldo",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^24.0.21",
     "jest": "^24.9.0",
+    "moment": "^2.24.0",
     "ts-jest": "^24.1.0",
     "typescript": "^3.6.4"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "jest": {
+   "globalSetup": "./global-setup.js"
+ }
 }
