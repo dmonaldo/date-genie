@@ -538,11 +538,161 @@ describe('Timezones', () => {
   });
 }
 
+// December 31st, 2019
+{
+  test('December 31st, 12am', () => {
+    expect(getWeek(new Date("2019-12-31T00:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('December 31st, 1am', () => {
+    expect(getWeek(new Date("2019-12-31T01:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('December 31st, 2am', () => {
+    expect(getWeek(new Date("2019-12-31T02:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('December 31st, 3am', () => {
+    expect(getWeek(new Date("2019-12-31T03:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('December 31st, 4am', () => {
+    expect(getWeek(new Date("2019-12-31T04:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('December 31st, 5am', () => {
+    expect(getWeek(new Date("2019-12-31T05:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('December 31st, 6am', () => {
+    expect(getWeek(new Date("2019-12-31T06:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('December 31st, 7am', () => {
+    expect(getWeek(new Date("2019-12-31T07:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('December 31st, 8am', () => {
+    expect(getWeek(new Date("2019-12-31T08:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('December 31st, 9am', () => {
+    expect(getWeek(new Date("2019-12-31T09:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('December 31st, 10am', () => {
+    expect(getWeek(new Date("2019-12-31T10:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('December 31st, 11am', () => {
+    expect(getWeek(new Date("2019-12-31T11:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('December 31st, 12pm', () => {
+    expect(getWeek(new Date("2019-12-31T12:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('December 31st, 1pm', () => {
+    expect(getWeek(new Date("2019-12-31T13:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('December 31st, 2pm', () => {
+    expect(getWeek(new Date("2019-12-31T14:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('December 31st, 3pm', () => {
+    expect(getWeek(new Date("2019-12-31T15:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('December 31st, 4pm', () => {
+    expect(getWeek(new Date("2019-12-31T16:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('December 31st, 5pm', () => {
+    expect(getWeek(new Date("2019-12-31T17:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('December 31st, 6pm', () => {
+    expect(getWeek(new Date("2019-12-31T18:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('December 31st, 7pm', () => {
+    expect(getWeek(new Date("2019-12-31T19:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('December 31st, 8pm', () => {
+    expect(getWeek(new Date("2019-12-31T20:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('December 31st, 9pm', () => {
+    expect(getWeek(new Date("2019-12-31T21:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('December 31st, 10pm', () => {
+    expect(getWeek(new Date("2019-12-31T22:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('December 31st, 11pm', () => {
+    expect(getWeek(new Date("2019-12-31T23:00:00.000Z"), 480)).toBe(2609);
+  });
+}
+
+// January 1st, 2020
+{
+  test('January 1st, 12am', () => {
+    expect(getWeek(new Date("2020-01-01T00:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('January 1st, 1am', () => {
+    expect(getWeek(new Date("2020-01-01T01:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('January 1st, 2am', () => {
+    expect(getWeek(new Date("2020-01-01T02:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('January 1st, 3am', () => {
+    expect(getWeek(new Date("2020-01-01T03:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('January 1st, 4am', () => {
+    expect(getWeek(new Date("2020-01-01T04:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('January 1st, 5am', () => {
+    expect(getWeek(new Date("2020-01-01T05:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('January 1st, 6am', () => {
+    expect(getWeek(new Date("2020-01-01T06:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('January 1st, 7am', () => {
+    expect(getWeek(new Date("2020-01-01T07:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('January 1st, 8am', () => {
+    expect(getWeek(new Date("2020-01-01T08:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('January 1st, 9am', () => {
+    expect(getWeek(new Date("2020-01-01T09:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('January 1st, 10am', () => {
+    expect(getWeek(new Date("2020-01-01T10:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('January 1st, 11am', () => {
+    expect(getWeek(new Date("2020-01-01T11:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('January 1st, 12pm', () => {
+    expect(getWeek(new Date("2020-01-01T12:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('January 1st, 1pm', () => {
+    expect(getWeek(new Date("2020-01-01T13:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('January 1st, 2pm', () => {
+    expect(getWeek(new Date("2020-01-01T14:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('January 1st, 3pm', () => {
+    expect(getWeek(new Date("2020-01-01T15:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('January 1st, 4pm', () => {
+    expect(getWeek(new Date("2020-01-01T16:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('January 1st, 5pm', () => {
+    expect(getWeek(new Date("2020-01-01T17:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('January 1st, 6pm', () => {
+    expect(getWeek(new Date("2020-01-01T18:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('January 1st, 7pm', () => {
+    expect(getWeek(new Date("2020-01-01T19:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('January 1st, 8pm', () => {
+    expect(getWeek(new Date("2020-01-01T20:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('January 1st, 9pm', () => {
+    expect(getWeek(new Date("2020-01-01T21:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('January 1st, 10pm', () => {
+    expect(getWeek(new Date("2020-01-01T22:00:00.000Z"), 480)).toBe(2609);
+  });
+  test('January 1st, 11pm', () => {
+    expect(getWeek(new Date("2020-01-01T23:00:00.000Z"), 480)).toBe(2609);
+  });
+}
+
 
 test.todo("Test daylight savings time changes")
 
 test.todo("Test epoch weeks")
 
 test.todo("Test different days of the week starts")
-
-test.todo("End/begining of year")
