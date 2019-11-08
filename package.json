@@ -15,8 +15,5 @@
     "ts-jest": "^24.1.0",
     "typescript": "^3.6.4"
   },
-  "dependencies": {},
-  "jest": {
-   "globalSetup": "./global-setup.js"
- }
+  "dependencies": {}
 }
