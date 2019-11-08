@@ -4,7 +4,7 @@
   "description": "A date manipulation library",
   "main": "dist/index.js",
   "scripts": {
-    "test": "jest --passWithNoTests --watch"
+    "test": "TZ=UTC jest --passWithNoTests --watch"
   },
   "author": "Dante Monaldo",
   "license": "ISC",
