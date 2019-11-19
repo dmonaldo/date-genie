@@ -1,4 +1,4 @@
-import { getWeek } from '../getWeek';
+import { getWeek } from './getWeek';
 
 describe('Timezones', () => {
   it('should always be UTC', () => {

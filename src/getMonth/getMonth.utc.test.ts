@@ -1,4 +1,4 @@
-import { getMonth } from '../getMonth';
+import { getMonth } from './getMonth';
 
 describe('Timezones', () => {
   it('should always be UTC', () => {
