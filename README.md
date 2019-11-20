@@ -16,7 +16,7 @@ npm install date-genie
 import genie from 'date-genie';
 ```
 
-**getWeek(Date, TimezoneOffset)**
+#### getWeek(Date, TimezoneOffset)
 Provided a given `Date`, return the number of full weeks that have occured before this date + 1. Monday is considered the first day of the week.
 
 `TimezoneOffset` is optional. If supplied, it shifts the date to the specified timezone using the offset. Otherwise it defaults to `0`.
@@ -37,7 +37,7 @@ let result = genie.getWeek(date);
 // result = 2600 because November 3rd, 2019 is in the 2600th week since the Unix epoch
 ```
 
-**getMonth(Date, TimezoneOffset)**
+#### getMonth(Date, TimezoneOffset)
 Provided a given `Date`, return the number of full months that have occured before this date + 1.
 
 `TimezoneOffset` is optional. If supplied, it shifts the date to the specified timezone using the offset. Otherwise it defaults to `0`.
@@ -59,5 +59,16 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to add/update tests as appropriate.
 
+```bash
+# Build and run tests
+npm test
+
+# Compile TypeScript into ./build
+tsc
+
+# Build for distribution
+gulp
+```
+
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[ISC](https://choosealicense.com/licenses/isc/)

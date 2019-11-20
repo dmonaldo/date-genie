@@ -1,19 +1,22 @@
 {
-  "name": "date-genie",
+  "name": "@dmonaldo/date-genie",
   "version": "1.0.0",
-  "description": "A date manipulation library",
-  "main": "dist/index.js",
+  "description": "A date manipulation library. Use it to count the number of weeks or months that have occured since the Unix epoch.",
+  "main": "./genie.js",
   "scripts": {
-    "test": "TZ=UTC jest --passWithNoTests --watch"
+    "test": "TZ=UTC jest --passWithNoTests --watch",
+    "build": "tsc",
+    "dist": "gulp"
   },
   "author": "Dante Monaldo",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^24.0.21",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.2",
     "jest": "^24.9.0",
-    "moment": "^2.24.0",
     "ts-jest": "^24.1.0",
     "typescript": "^3.6.4"
-  },
-  "dependencies": {}
+  }
 }
