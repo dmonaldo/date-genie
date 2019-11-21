@@ -50,8 +50,8 @@ let result = genie.getMonth(date);
 ```
 
 ## Roadmap
-- Add support for dates before 1970. Currently only dates after 1970 are supported and have been tested.
-- Allow the day a week starts to be adjusted for `getWeek`.
+- Add support for dates before 1970. Currently only dates after January 1st, 1970 are supported and have been tested.
+- Allow the day a week starts to be adjusted for `getWeek`. Currently defaults to Monday.
 - Support environments operating in timezones other than UTC.
 
 ## Contributing
