@@ -23,8 +23,8 @@ Provided a given `Date`, return the number of full weeks that have occured befor
 
 ```javascript
 // Tuesday, November 5th, 2019
-let date = new Date("2019-11-05T00:00:00.000Z"); 
-let result = genie.getWeek(date);
+var date = new Date("2019-11-05T00:00:00.000Z"); 
+var result = genie.getWeek(date);
 // result = 2601 because November 5th, 2019 is in the 2601st week since the Unix epoch
 ```
 
@@ -32,8 +32,9 @@ let result = genie.getWeek(date);
 // Using TimezoneOffset
 // Sunday, November 3rd, 2019 @ 10pm PST
 // Note that the UTC date is November 4th but the TimezoneOffset shifts it back
-let date = new Date("2019-11-04T06:00:00.000Z", 480); 
-let result = genie.getWeek(date);
+var date = new Date("2019-11-04T06:00:00.000Z");
+var timezoneOffset = 480;
+var result = genie.getWeek(date, timezoneOffset);
 // result = 2600 because November 3rd, 2019 is in the 2600th week since the Unix epoch
 ```
 
@@ -44,8 +45,8 @@ Provided a given `Date`, return the number of full months that have occured befo
 
 ```javascript
 // Friday, November 1st, 2019
-let date = new Date("2019-11-01T00:00:00.000Z"); 
-let result = genie.getMonth(date);
+var date = new Date("2019-11-01T00:00:00.000Z"); 
+var result = genie.getMonth(date);
 // result = 599 because November 2019 is the 599th month since the Unix epoch
 ```
 
