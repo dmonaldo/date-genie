@@ -54,6 +54,7 @@ var result = genie.getMonth(date);
 - Add support for dates before 1970. Currently only dates after January 1st, 1970 are supported and have been tested.
 - Allow the day a week starts to be adjusted for `getWeek`. Currently defaults to Monday.
 - Support environments operating in timezones other than UTC.
+- Solve [Year 2038 problem](https://en.wikipedia.org/wiki/Year_2038_problem)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
