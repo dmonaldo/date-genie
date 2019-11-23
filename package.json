@@ -1,6 +1,6 @@
 {
-  "name": "date-genie",
-  "version": "1.0.3",
+  "name": "@dmonaldo/date-genie",
+  "version": "1.0.0",
   "description": "A date manipulation library. Use it to count the number of weeks or months that have occured since the Unix epoch.",
   "keywords": ["date", "unix", "epoch", "util"],
   "main": "./genie.js",
@@ -8,7 +8,7 @@
     "test": "TZ=UTC jest --passWithNoTests --watch",
     "build": "tsc",
     "dist": "gulp",
-    "postpublish": "npm publish --ignore-scripts --@OWNER:registry='https://registry.npmjs.org'"
+    "postpublish": "npm publish --ignore-scripts --registry='https://registry.npmjs.org'"
   },
   "repository": {
     "type": "git",
