@@ -1,5 +1,5 @@
 {
-  "name": "@dmonaldo/date-genie",
+  "name": "date-genie",
   "version": "1.0.0",
   "description": "A date manipulation library. Use it to count the number of weeks or months that have occured since the Unix epoch.",
   "main": "./genie.js",
@@ -8,7 +8,7 @@
     "build": "tsc",
     "dist": "gulp"
   },
-  "author": "Dante Monaldo",
+  "author": "Dante Monaldo <mail@dantemonaldo.com> (https://dantemonaldo.com)",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^24.0.21",
