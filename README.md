@@ -5,7 +5,7 @@ date-genie is a Javascript date manipulation library written in Typescript. Use 
 This library has been thoroughly tested in UTC (Zulu Time) environments. Running this code in a timezone other than UTC *could* produce unpredictable results.
 
 ## Installation
-Use the package manager [npm]() to install date-genie.
+Use the package manager [npm](https://www.npmjs.com/package/date-genie) to install date-genie.
 
 ```bash
 npm install date-genie
