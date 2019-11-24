@@ -8,12 +8,12 @@ This library has been thoroughly tested in UTC (Zulu Time) environments. Running
 Use the package manager [npm](https://www.npmjs.com/package/@dmonaldo/date-genie) to install date-genie.
 
 ```bash
-npm install date-genie
+npm install @dmonaldo/date-genie
 ```
 
 ## Usage
 ```javascript
-import genie from 'date-genie';
+var genie = require('@dmonaldo/date-genie');
 ```
 
 #### getWeek(Date, TimezoneOffset)

@@ -1,6 +1,6 @@
 {
   "name": "@dmonaldo/date-genie",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A date manipulation library. Use it to count the number of weeks or months that have occured since the Unix epoch.",
   "keywords": ["date", "unix", "epoch", "util"],
   "main": "./genie.js",
