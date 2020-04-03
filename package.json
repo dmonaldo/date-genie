@@ -2,7 +2,12 @@
   "name": "@dmonaldo/date-genie",
   "version": "1.0.7",
   "description": "A date manipulation library. Use it to count the number of weeks or months that have occured since the Unix epoch.",
-  "keywords": ["date", "unix", "epoch", "util"],
+  "keywords": [
+    "date",
+    "unix",
+    "epoch",
+    "util"
+  ],
   "main": "./genie.js",
   "scripts": {
     "test": "TZ=UTC jest --passWithNoTests --watch",
@@ -20,12 +25,12 @@
   "author": "Dante Monaldo <mail@dantemonaldo.com> (https://dantemonaldo.com)",
   "license": "ISC",
   "devDependencies": {
-    "@types/jest": "^24.0.21",
+    "@types/jest": "^24.9.1",
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-uglify": "^3.0.2",
     "jest": "^24.9.0",
-    "ts-jest": "^24.1.0",
-    "typescript": "^3.6.4"
+    "ts-jest": "^24.3.0",
+    "typescript": "^3.8.3"
   }
 }
